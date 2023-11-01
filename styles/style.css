@@ -1,6 +1,18 @@
 body {
     font-family: system-ui;
-    background: #f06d06;
-    color: white;
+    background: black;
     text-align: center;
   }
+
+  .image_clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  #globe{
+    transform: scale(10);
+  }
+  
