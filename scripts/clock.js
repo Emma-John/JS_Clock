@@ -7,7 +7,7 @@ function currentTime() {
   let session = "AM";
 
     
-  if(hh > 12){
+  if(hh >= 12){
       session = "PM";
    }
 

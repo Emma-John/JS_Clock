@@ -1,7 +1,20 @@
-body {
+ @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  body {
     font-family: system-ui;
     background: black;
     text-align: center;
+  }
+
+  .rotate{
+    animation: rotation 60s infinite linear;
   }
 
   .image_clock{
@@ -11,8 +24,3 @@ body {
     transform: translate(-50%, -50%);
     color: white;
   }
-
-  #globe{
-    transform: scale(10);
-  }
-  
