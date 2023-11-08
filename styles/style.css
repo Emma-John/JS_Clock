@@ -9,7 +9,7 @@
   
   body {
     font-family: system-ui;
-    background: black;
+    background: lightskyblue;
     text-align: center;
   }
 
@@ -17,10 +17,16 @@
     animation: rotation 60s infinite linear;
   }
 
-  .image_clock{
+  #clock{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+
+  #globe{
+    position: absolute;
+    top: 26%;
+    left: 39%;
   }
