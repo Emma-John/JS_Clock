@@ -18,7 +18,9 @@ function currentTime() {
    let time = hh + ":" + mm + ":" + ss + " " + session;
 
   document.getElementById("clock").innerText = time; 
-  let t = setTimeout(function(){ currentTime() }, 1000); 
+  let t = setTimeout(function(){ currentTime() }, 1000);
+
+  bkChange();
 
 }
 
