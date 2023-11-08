@@ -9,7 +9,7 @@
   
   body {
     font-family: system-ui;
-    background: lightskyblue;
+    background-color:pink;
     text-align: center;
   }
 
@@ -29,4 +29,5 @@
     position: absolute;
     top: 26%;
     left: 39%;
+
   }
