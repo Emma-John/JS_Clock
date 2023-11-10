@@ -1,7 +1,6 @@
 
 
 function bkChange() {
-    console.log("Ran bk change");
     let time = new Date();
     let hour = time.getHours();
 
