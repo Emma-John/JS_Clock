@@ -4,7 +4,7 @@ This is an expirimental WebApp that is called "As the World Turns". This is a cl
 
 I wanted to make something cute that tells the time.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=WjUKdbeZ32I)
 
 # Development Environment
 
